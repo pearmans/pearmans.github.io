@@ -136,6 +136,9 @@ section {
 
 #about {
     background: url(/img/paper.png);
+    p {
+        min-height: 230px;
+    }
     img {
         margin-top: 1em;
         margin-bottom: 0.5em; 
@@ -151,10 +154,10 @@ section {
 
 #web {
     padding-bottom: 0;
-    background: url(/img/butterfly.png) no-repeat #006a77;
+    background: url(/img/butterfly.png) no-repeat #3383A0;
     color: #fff;
     .banner {
-        border-bottom: 1px dashed #888;
+        border-bottom: 1px dashed rgba(255,255,255,0.7);
     }
 }
 

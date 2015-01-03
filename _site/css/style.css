@@ -84,7 +84,7 @@ h1 {
 
 /* line 76, ../_sass/_base.scss */
 h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   margin: 0;
   font-size: 2em;
 }
@@ -250,33 +250,37 @@ section {
   background: url(/img/paper.png);
 }
 /* line 139, ../_sass/style.scss */
+#about p {
+  min-height: 230px;
+}
+/* line 142, ../_sass/style.scss */
 #about img {
   margin-top: 1em;
   margin-bottom: 0.5em;
   border: 2px solid #333;
   border-radius: 200px;
 }
-/* line 145, ../_sass/style.scss */
+/* line 148, ../_sass/style.scss */
 #about h2 {
   border-color: rgba(0, 0, 0, 0.15);
 }
 
-/* line 152, ../_sass/style.scss */
+/* line 155, ../_sass/style.scss */
 #web {
   padding-bottom: 0;
-  background: url(/img/butterfly.png) no-repeat #006a77;
+  background: url(/img/butterfly.png) no-repeat #3383A0;
   color: #fff;
 }
-/* line 156, ../_sass/style.scss */
+/* line 159, ../_sass/style.scss */
 #web .banner {
-  border-bottom: 1px dashed #888;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
 }
 
-/* line 161, ../_sass/style.scss */
+/* line 164, ../_sass/style.scss */
 #websites {
   padding-bottom: 1em;
 }
-/* line 162, ../_sass/style.scss */
+/* line 165, ../_sass/style.scss */
 #websites img {
   width: 100%;
   margin: 1em 0 0.5em 0;
@@ -284,11 +288,11 @@ section {
   border-radius: 12px;
 }
 
-/* line 171, ../_sass/style.scss */
+/* line 174, ../_sass/style.scss */
 .img-hover {
   text-align: center;
 }
-/* line 174, ../_sass/style.scss */
+/* line 177, ../_sass/style.scss */
 .img-hover input {
   opacity: 0;
   padding: 1em;
@@ -301,34 +305,34 @@ section {
   bottom: 300px;
   transition: opacity 0.4s;
 }
-/* line 186, ../_sass/style.scss */
+/* line 189, ../_sass/style.scss */
 .img-hover input:hover {
   background: rgba(220, 220, 220, 0.9);
   cursor: pointer;
 }
-/* line 193, ../_sass/style.scss */
+/* line 196, ../_sass/style.scss */
 .img-hover:hover input {
   opacity: 1;
 }
 
-/* line 201, ../_sass/style.scss */
+/* line 204, ../_sass/style.scss */
 #design {
   background: url(/img/stardust.png) #222;
   color: #fff;
   padding: 0;
 }
-/* line 206, ../_sass/style.scss */
+/* line 209, ../_sass/style.scss */
 #design .container.banner {
   background: url(/img/astronaut.png) no-repeat;
   overflow: auto;
   margin-bottom: -1em;
 }
-/* line 212, ../_sass/style.scss */
+/* line 215, ../_sass/style.scss */
 #design li {
   padding-bottom: 2em;
 }
 
-/* line 217, ../_sass/style.scss */
+/* line 220, ../_sass/style.scss */
 .carousel {
   text-align: center;
   width: 100%;
@@ -336,7 +340,7 @@ section {
   padding-bottom: 2.5em;
   padding-top: 2em;
 }
-/* line 225, ../_sass/style.scss */
+/* line 228, ../_sass/style.scss */
 .carousel img {
   background: #fff;
   height: 500px;
@@ -344,7 +348,7 @@ section {
   transition: all 0.5s;
   border-radius: 4px;
 }
-/* line 233, ../_sass/style.scss */
+/* line 236, ../_sass/style.scss */
 .carousel input {
   width: 2em;
   height: 2em;
@@ -357,45 +361,45 @@ section {
   position: absolute;
   margin-top: 25%;
 }
-/* line 244, ../_sass/style.scss */
+/* line 247, ../_sass/style.scss */
 .carousel input:hover {
   color: #eee;
   border: 1px solid #eee;
   background: rgba(0, 140, 140, 0.8);
 }
-/* line 249, ../_sass/style.scss */
+/* line 252, ../_sass/style.scss */
 .carousel input:hover.back {
   border-left: 0;
 }
-/* line 252, ../_sass/style.scss */
+/* line 255, ../_sass/style.scss */
 .carousel input:hover.next {
   border-right: 0;
 }
-/* line 256, ../_sass/style.scss */
+/* line 259, ../_sass/style.scss */
 .carousel input:focus {
   outline: 0;
 }
-/* line 259, ../_sass/style.scss */
+/* line 262, ../_sass/style.scss */
 .carousel input.back {
   border-left: 0;
   left: 0;
   float: left;
 }
-/* line 264, ../_sass/style.scss */
+/* line 267, ../_sass/style.scss */
 .carousel input.next {
   border-right: 0;
   right: 0;
   float: right;
 }
 
-/* line 276, ../_sass/style.scss */
+/* line 279, ../_sass/style.scss */
 #contact {
   background: #000;
   border: none;
   color: #fff;
 }
 
-/* line 282, ../_sass/style.scss */
+/* line 285, ../_sass/style.scss */
 .icon {
   width: 40px;
   display: inline-block;
@@ -403,33 +407,33 @@ section {
   margin-right: 8px;
   margin-bottom: 0.5em;
 }
-/* line 289, ../_sass/style.scss */
+/* line 292, ../_sass/style.scss */
 .icon img {
   width: 100%;
   border-radius: 30px;
 }
-/* line 294, ../_sass/style.scss */
+/* line 297, ../_sass/style.scss */
 .icon:hover {
   bottom: 1px;
   left: 1px;
 }
 
-/* line 300, ../_sass/style.scss */
+/* line 303, ../_sass/style.scss */
 form {
   width: 100%;
   margin-right: 3.3%;
 }
-/* line 305, ../_sass/style.scss */
+/* line 308, ../_sass/style.scss */
 form label {
   display: none;
 }
-/* line 309, ../_sass/style.scss */
+/* line 312, ../_sass/style.scss */
 form input.field {
   background: none;
   border: none;
   border-bottom: 1px solid #fff;
 }
-/* line 315, ../_sass/style.scss */
+/* line 318, ../_sass/style.scss */
 form textarea {
   height: 200px;
   background: #eee;
@@ -440,49 +444,49 @@ form textarea {
   box-sizing: border-box;
 }
 
-/* line 326, ../_sass/style.scss */
+/* line 329, ../_sass/style.scss */
 .left-col {
   box-sizing: border-box;
   display: inline-block;
   float: left;
 }
-/* line 330, ../_sass/style.scss */
+/* line 333, ../_sass/style.scss */
 .left-col.form {
   width: 66.7%;
 }
 
-/* line 335, ../_sass/style.scss */
+/* line 338, ../_sass/style.scss */
 .right-col {
   box-sizing: border-box;
   display: inline-block;
   float: right;
 }
 
-/* line 342, ../_sass/style.scss */
+/* line 345, ../_sass/style.scss */
 form .left-col {
   width: 30%;
   margin-right: 3.3%;
 }
-/* line 346, ../_sass/style.scss */
+/* line 349, ../_sass/style.scss */
 form .left-col li {
   padding: 4px 0;
 }
-/* line 350, ../_sass/style.scss */
+/* line 353, ../_sass/style.scss */
 form .left-col input {
   font-size: 1em;
 }
-/* line 354, ../_sass/style.scss */
+/* line 357, ../_sass/style.scss */
 form .left-col input.field {
   box-sizing: border-box;
   width: 100%;
   color: #fff;
   text-align: right;
 }
-/* line 359, ../_sass/style.scss */
+/* line 362, ../_sass/style.scss */
 form .left-col input.field:focus {
   outline: 0;
 }
-/* line 364, ../_sass/style.scss */
+/* line 367, ../_sass/style.scss */
 form .left-col .buttons input {
   float: right;
   padding: 0.5em 1em;
@@ -492,7 +496,7 @@ form .left-col .buttons input {
   margin-top: 8px;
 }
 
-/* line 373, ../_sass/style.scss */
+/* line 376, ../_sass/style.scss */
 .info.right-col {
   height: 200px;
   width: 31.65%;
@@ -502,24 +506,24 @@ form .left-col .buttons input {
   border-left: 1px dashed #fff;
   font-size: 0.8em;
 }
-/* line 381, ../_sass/style.scss */
+/* line 384, ../_sass/style.scss */
 .info.right-col ul {
   padding-top: 2em;
   border-top: 1px solid #fff;
 }
 
-/* line 387, ../_sass/style.scss */
+/* line 390, ../_sass/style.scss */
 form .right-col {
   width: 66.4%;
 }
 
-/* line 391, ../_sass/style.scss */
+/* line 394, ../_sass/style.scss */
 .container {
   padding-left: 12%;
   padding-right: 12%;
 }
 
-/* line 396, ../_sass/style.scss */
+/* line 399, ../_sass/style.scss */
 div.container {
   padding: 0 12%;
   margin: 0;
