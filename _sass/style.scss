@@ -136,9 +136,6 @@ section {
 
 #about {
     background: url(/img/paper.png);
-    p {
-        min-height: 230px;
-    }
     img {
         margin-top: 1em;
         margin-bottom: 0.5em; 
@@ -147,6 +144,25 @@ section {
     }
     h2 {
         border-color:rgba(0,0,0,0.15);
+    }
+    .contact {
+        border: 1px dashed #999;
+        text-align: center;
+        display: block;
+        width: 400px;
+        margin: 40px auto;
+        padding: 20px 0;
+
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 0.95em;
+            font-weight: 400;
+        }
+        h4 {
+            text-align: center;
+            margin:0;
+        }
     }
 }
 
